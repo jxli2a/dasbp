@@ -1,0 +1,16 @@
+# config file for two DAS systems in Mammoth
+south:
+    path_continuous_data: ./Data/DASDataRaw
+    fn_timelist: ./Data/timelist_south_raw.csv
+    fn_dasinfo: ./Data/dasinfo_south.csv
+    fn_P_grids: ./Data/Grids/tp_grids_south.h5
+    fn_S_grids: ./Data/Grids/ts_grids_south.h5
+    path_traveltime: ./Data/TravelTime
+
+north:
+    path_continuous_data: ./Data/DASDataRaw
+    fn_timelist: ./Data/timelist_north_raw.csv
+    fn_dasinfo: ./Data/dasinfo_north.csv
+    fn_P_grids: ./Data/Grids/tp_grids_north.h5
+    fn_S_grids: ./Data/Grids/ts_grids_north.h5
+    path_traveltime: ./Data/TravelTime
